@@ -1,6 +1,6 @@
 .access-more-container {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -17,6 +17,14 @@
     width: 370px;
     max-width: 100%;
   }
+
+  .loading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #f5b031;
+    margin-bottom: 16px;
+    animation: fadeInOut 2s infinite;
+  }
   
   .access-more-text {
     color: #ffffff;
@@ -24,6 +32,19 @@
     font-size: 18px;
     margin-bottom: 16px;
   }
+ 
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
   
   .access-more-signup-btn {
     background-color: transparent;

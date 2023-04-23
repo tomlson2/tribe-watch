@@ -8,7 +8,7 @@ const AccessMore = () => {
             <SmallHeader />
             <div className="access-more-container">
                 <div className="access-more-box">
-                    <div className="data-loading">Data Loading...</div>
+                <div className="loading">Data Loading...</div>
                     <p className="access-more-text">
                         Are you a trader, builder, or founder
                         interested in more access to proof of community?
