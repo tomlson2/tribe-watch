@@ -59,7 +59,7 @@ const ServerDetails = () => {
                                         activeDot={{ r: 8 }}
                                         strokeWidth={2}
                                         dot={{ stroke: '#f5b031', strokeWidth: 1, r: 4 }}
-                                        animationDuration={1000}
+                                        animationDuration={500}
                                     />
                                 </LineChart>
                             </ResponsiveContainer>

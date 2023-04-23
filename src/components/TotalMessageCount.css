@@ -1,0 +1,32 @@
+.chart-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 120px;
+    position: relative;
+    height: 280px;
+  }
+  
+  .data-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #f5b031;
+    opacity: 0;
+    animation: fadeInOut 2s infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

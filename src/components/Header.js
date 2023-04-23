@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="icon-text-container">
       <Logo className="logo" />
-      <h1 className="title"><a href= '/' className='link'>TRIBE WATCH</a></h1>
+      <h1 className="title"><a href= '/' className='link'>PROOF</a></h1>
     </header>
   );
 };

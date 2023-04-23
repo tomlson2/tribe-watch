@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { ResponsiveContainer, LineChart, XAxis, YAxis, Tooltip, Legend, Line } from 'recharts';
+import './TotalMessageCount.css';
 
 const TotalMessageCount = () => {
-  const [messageData, setMessageData] = useState(0);
+  const [messageData, setMessageData] = useState(null);
 
   const fetchServerDetails = async () => {
     try {
@@ -19,9 +20,10 @@ const TotalMessageCount = () => {
   }, []);
 
   return (
-    <div className='chart'>
-      <ResponsiveContainer width="100%" height={280}>
-        <LineChart data={messageData}>
+    <div className='chart-container'>
+      {messageData ? (
+        <ResponsiveContainer width="100%" height={280}>
+          <LineChart data={messageData}>
           <XAxis dataKey="hour" tick={{ fontSize: 12 }} />
           <YAxis yAxisId="right" tick={{ fontSize: 12 }} orientation="right" />
           <YAxis yAxisId="left" tick={{ fontSize: 12 }} orientation="left" />
@@ -36,23 +38,24 @@ const TotalMessageCount = () => {
             type="monotone"
             dataKey="Message Count"
             stroke="#f5b031"
-            activeDot={{ r: 8 }}
+            dot={false}
             strokeWidth={2}
-            dot={{ stroke: '#f5b031', strokeWidth: 1, r: 4 }}
-            animationDuration={1000}
+            animationDuration={0}
           />
           <Line
             yAxisId="right"
             type="monotone"
             dataKey="Active Users" // Change this to the data key you want to represent with the blue line
             stroke="#2179b5"
-            activeDot={{ r: 8 }}
+            dot={false}
             strokeWidth={2}
-            dot={{ stroke: '#2179b5', strokeWidth: 1, r: 4 }}
-            animationDuration={1000}
+            animationDuration={0}
           />
-        </LineChart>
-      </ResponsiveContainer>
+          </LineChart>
+        </ResponsiveContainer>
+      ) : (
+        <div className="data-loading">Data Loading...</div>
+      )}
     </div>
   );
 };

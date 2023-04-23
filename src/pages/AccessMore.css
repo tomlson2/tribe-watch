@@ -1,0 +1,43 @@
+.access-more-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    background-color: #27282b;
+  }
+  
+  .access-more-box {
+    display: inline-block;
+    background-color: #27282b;
+    border: 2px solid #f5b031;
+    border-radius: 5px;
+    padding: 18px;
+    width: 370px;
+    max-width: 100%;
+  }
+  
+  .access-more-text {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .access-more-signup-btn {
+    background-color: transparent;
+    color: #f5b031;
+    border: 2px solid #f5b031;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 4px 8px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }

@@ -1,0 +1,76 @@
+.small-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #27282b;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .small-icon-text-container {
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+    min-height: 32px;
+  }
+  
+  .logo {
+    height: 24px;
+    width: auto;
+    fill: #f5b031;
+    margin-right: 8px;
+  }
+  
+  .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1;
+  }
+
+  data {
+    margin-right: 50px;
+    margin-left: 50px
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .access-more-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #f5b031;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 16px;
+    outline: none;
+  }
+
+  .data-loading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #f5b031;
+    margin-bottom: 16px;
+    opacity: 0;
+    animation: fadeInOut 2s infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

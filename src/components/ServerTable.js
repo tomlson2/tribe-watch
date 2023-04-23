@@ -31,22 +31,22 @@ const ServerTable = ({ timeFilter }) => {
   }, [timeFilter]); // Add timeFilter to the dependency array
 
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>server</th>
-          <th>messages</th>
-          <th>active users</th>
-          <th>reactions</th>
-          <th>age (days)</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map((item, index) => (
-          <ServerRow key={index} item={item} />
-        ))}
-      </tbody>
-    </table>
+      <table className="data">
+        <thead>
+          <tr>
+            <th>server</th>
+            <th>messages</th>
+            <th>active users</th>
+            <th>reactions</th>
+            <th>age (days)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((item, index) => (
+            <ServerRow key={index} item={item} />
+          ))}
+        </tbody>
+      </table>
   );
 };
 
