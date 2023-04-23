@@ -6,7 +6,7 @@ const TotalMessageCount = () => {
 
   const fetchServerDetails = async () => {
     try {
-      const response = await fetch('https://tribewatch.azurewebsites.com/api/total_message_count');
+      const response = await fetch('https://tribewatch.azurewebsites.net/api/total_message_count');
       const data = await response.json();
       setMessageData(data);
     } catch (error) {
