@@ -21,7 +21,7 @@ const ServerTable = ({ timeFilter }) => {
 
   const updateData = () => {
     const req = fetchData();
-    $.getJSON(`/data${req}`, function (responseData) {
+    $.getJSON(`https://tribewatch.azurewebsites.net/api/data${req}`, function (responseData) {
       setData(responseData);
     });
   };

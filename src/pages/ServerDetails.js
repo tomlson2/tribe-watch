@@ -9,7 +9,7 @@ const ServerDetails = () => {
 
     const fetchServerDetails = async (serverId) => {
         try {
-            const response = await fetch(`/server/${serverId}`);
+            const response = await fetch(`https://tribewatch.azurewebsites.net/api/server/${serverId}`);
             const data = await response.json();
             setServerDetails(data);
         } catch (error) {
