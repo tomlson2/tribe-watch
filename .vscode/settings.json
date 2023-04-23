@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0e547245-82d2-4286-910a-a2aff8a6ef1e/resourceGroups/tribeResourceGroup/providers/Microsoft.Web/sites/tribeWatch",
+    "appService.deploySubpath": "."
+}
