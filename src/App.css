@@ -16,6 +16,10 @@
     text-decoration: none;
   }
 
+  .reaction-count {
+    color: rgb(44, 44, 44);
+  }
+
   .stats-container {
     display: flex;
     justify-content: space-around;

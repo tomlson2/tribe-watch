@@ -20,7 +20,7 @@ const ServerRow = ({ item }) => {
       </td>
       <td>{messageCount}</td>
       <td>{activeUsers}</td>
-      <td>{reactionCount}</td>
+      {/* <td class="reaction-count">{reactionCount}</td> */}
       <td>{createdAt}</td>
     </tr>
   );
