@@ -10,7 +10,7 @@ const Dashboard = () => {
     const [timeFilter, setTimeFilter] = useState(24);
     return (
         <>
-            <SmallHeader centerContent={<h2></h2>} buttonText="access more" buttonHref="/more" />
+            <SmallHeader centerContent={<h2>Dashboard</h2>} buttonText="access more" buttonHref="/more" />
             <div className="dashboard-container">
                 <div className='dashboard-table'>
                     <HeaderContainer
