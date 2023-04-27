@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 const AccessMore = () => {
     return (
         <>
-            <SmallHeader centerContent={<h2>Access More</h2>} buttonText="dashboard" buttonHref="/dashboard" />
+            <SmallHeader centerContent={<h2></h2>} buttonText="dashboard" buttonHref="/dashboard" />
             <div className="access-more-container">
                 <div className="access-more-box">
                     <div className="loading">Data Loading...</div>
