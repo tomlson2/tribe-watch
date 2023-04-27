@@ -16,7 +16,6 @@ const AccessMore = () => {
                     </p>
                     <button className="access-more-signup-btn"><a href='https://forms.gle/QPzZBhw7U66ZmNBr7'>early access</a></button>
                 </div>
-                <Footer />
             </div>
         </>
     );
