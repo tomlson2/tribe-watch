@@ -6,8 +6,8 @@
   position: absolute;
   width: 100%;
   background-color: #27282b;
-  padding-top: 300px;
-  min-height: calc(100vh - 356px);
+  padding-top: 200px;
+  min-height: calc(100vh - 256px);
 }
 
 .access-more-box {
