@@ -41,6 +41,8 @@
   table td:not(:first-child) {
     text-align: right;
     padding: 14px 8px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   table tbody tr:hover {
