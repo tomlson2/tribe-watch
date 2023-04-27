@@ -1,0 +1,37 @@
+/* ScrollingIcons.css */
+.scrolling-icons {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+  }
+  
+  .scrolling-icons::before,
+  .scrolling-icons::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    pointer-events: none;
+    width: 80%;
+  }
+  
+  .scrolling-icon {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    animation: scroll 30s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

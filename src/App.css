@@ -94,17 +94,17 @@
   .chart {
     margin-top: 100px;
   }
-
-  h3 {
+  
+  .header-container h3 {
     margin: 2px;
     margin-bottom: 20px;
     margin-right: 10px;
     font-size: 20px;
     display: inline-block;
+    text-transform: uppercase;
   }
 
-  .header-container h2,
-  h3 {
+  .header-container h2 {
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;

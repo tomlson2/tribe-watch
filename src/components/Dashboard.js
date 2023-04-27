@@ -1,16 +1,15 @@
 import { React, useState } from 'react';
+import './Dashboard.css';
 import SmallHeader from './SmallHeader';
 import HeaderContainer from './HeaderContainer';
 import ServerTable from './ServerTable';
-import TotalMessageCount from './TotalMessageCount';
 
-const Home = () => {
+const Dashboard = () => {
     const [headerFilter, setHeaderFilter] = useState("top");
     const [timeFilter, setTimeFilter] = useState(24);
     return (
         <div>
-            <SmallHeader />
-            <TotalMessageCount />
+            <SmallHeader centerContent={<h2>DASHBOARD</h2>} />
             <HeaderContainer
                 onHeaderFilterClick={setHeaderFilter}
                 activeHeaderFilter={headerFilter}
@@ -22,4 +21,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Dashboard;

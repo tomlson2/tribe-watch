@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home';
+import Dashboard from './components/Dashboard';
 import ServerDetails from './pages/ServerDetails';
 import AccessMore from './pages/AccessMore';
+import HomePage from './pages/HomePage';
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
           <Route path="/server/:serverId" element={<ServerDetails />}/>
           <Route path="/more" element={<AccessMore />}/>
         </Routes>

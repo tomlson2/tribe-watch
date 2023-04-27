@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 56px);
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: #27282b;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.chart-container {
+    flex-grow: 1;
+    max-width: 800px;
+    width: 55%;
+    padding: 40px;
+}
+
+  
+  .home-content {
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .home-footer {
+    font-size: 16px;
+    background-color: #27282b;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+
+  span {
+    color: #fff;
+  }
+  
+  .home-title {
+    margin-top: 175px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #f5b031;
+    margin-bottom: 0;
+  }
+  
+  .home-title span {
+    color: #ffffff;
+  }
+
+  .home-content h2 {
+    font-size: 34px;
+    font-weight: 400;
+  }
+  
+  .subheading {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 8px; /* Adjust this value to reduce the space between H2 and P elements */
+  }
+  
+  .home-content p {
+    max-width: 800px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-top: 0; /* Add this line to remove the default top margin of the P element */
+  }
+ 

@@ -13,14 +13,13 @@ const ServerRow = ({ item }) => {
   return (
     <tr className="row">
       <td>
-        <Link className="server-link">
+        <Link to={`/server/${serverId}`} className="server-link">
           <img src={iconUrl} alt="Server Icon" className="server-icon" />
           <span className="server-text">{serverName}</span>
       </Link>
       </td>
       <td>{messageCount}</td>
       <td>{activeUsers}</td>
-      <td className="reaction-count">{reactionCount}</td>
       <td>{createdAt}</td>
     </tr>
   );

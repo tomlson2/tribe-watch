@@ -2,7 +2,7 @@ import React from 'react';
 import { ReactComponent as Logo } from '../assets/logo.svg';
 import './SmallHeader.css';
 
-const SmallHeader = () => {
+const SmallHeader = ({ centerContent }) => {
   return (
     <header className="small-header">
       <div className="small-icon-text-container">
@@ -13,7 +13,8 @@ const SmallHeader = () => {
           </a>
         </h1>
       </div>
-      <button className="access-more-btn"><a href="/more">access more →</a></button>
+      <div className="center-content">{centerContent}</div>
+      <button className="access-more-btn"><a href="/dashboard">dashboard →</a></button>
     </header>
   );
 };

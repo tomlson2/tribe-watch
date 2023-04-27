@@ -1,0 +1,22 @@
+.market-overview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  
+  .market-overview-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    color: #707070;
+    margin-left: 66px;
+  }
+  
+  .market-overview-link {
+    text-decoration: underline;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    color: #707070;
+    margin-right: 16px;
+  }
+
