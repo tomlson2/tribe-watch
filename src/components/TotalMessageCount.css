@@ -14,6 +14,14 @@
     opacity: 0;
     animation: fadeInOut 2s infinite;
   }
+
+  @media (max-width: 767px) {
+    .chart-container {
+      height: auto; /* adjust the height to be responsive */
+      /* or set a different fixed height for mobile devices, e.g. */
+      /* height: 180px; */
+    }
+  }
   
   @keyframes fadeInOut {
     0% {
