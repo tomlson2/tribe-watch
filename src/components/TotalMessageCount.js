@@ -31,7 +31,7 @@ const TotalMessageCount = () => {
       // Merge messageData and volumeByHour
       const mergedData = messageData.map((item) => ({
         ...item,
-        volume: volumeByHour[item.hour] || 0,
+        'Market Volume': volumeByHour[item.hour] || 0,
       }));
   
       setMessageData(mergedData);
@@ -50,12 +50,12 @@ const TotalMessageCount = () => {
     <div className='chart-container'>
       <MarketOverviewHeader />
       {messageData? (
-        <ResponsiveContainer width="100%" height={300}>
+        <ResponsiveContainer width="100%" height={335}>
           <ComposedChart data={messageData}>
             <XAxis dataKey="hour" tick={{ fontSize: 12 }} />
             <YAxis yAxisId="left" tick={{ fontSize: 12 }} orientation="left" />
             <YAxis yAxisId="center" tick={{ fontSize: 12 }} orientation="right" />
-            <YAxis yAxisId="right" domain={[0, 5000]} axisLine={false} tick={false}/>
+            <YAxis yAxisId="right" domain={[0, 7000]} axisLine={false} tick={false}/>
             <Tooltip
               contentStyle={{ backgroundColor: '#27282b', fontSize: "12px" }}
               itemStyle={{ color: '#fff' }}
