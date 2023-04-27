@@ -3,24 +3,21 @@ import './HomePage.css';
 import SmallHeader from '../components/SmallHeader';
 import TotalMessageCount from '../components/TotalMessageCount';
 import ScrollingIcons from '../components/ScrollingIcons';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
     return (
         <div>
-            <SmallHeader centerContent={<h2>HOME</h2>} />
+            <SmallHeader centerContent={<h2></h2>} buttonText="dashboard" buttonHref="/dashboard" />
             <div className="home-container">
                 <h1 className="home-title">
-                    Discover Web3 growth<span><br />through proof of community</span>
+                    Discover Web3 ventures<span><br />through proof of community</span>
                 </h1>
                 <div className="home-content">
-                    <p>
-                        The platform for those looking to find projects that value community.
-                    </p>
+                    <p>The platform for projects and users that value building and contribution.</p>
                 </div>
                 <TotalMessageCount className="chart-container" />
-                <footer className="home-footer">
-                    <p>&copy; 2023 proof.community. All rights reserved.</p>
-                </footer>
+                <Footer/>
             </div>
         </div>
     );

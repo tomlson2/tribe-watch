@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #464646;
   }
   
   .small-icon-text-container {
@@ -80,4 +81,4 @@
     transform: translate(-50%, -50%);
     margin-top: 10px;
   }
-  
+

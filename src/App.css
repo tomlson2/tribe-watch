@@ -27,7 +27,6 @@
     color: #fff;
     margin-top: 50px;
     margin-bottom: 75px;
-    background-color: #1b1c1f;
   }
 
   .stat-column {
@@ -47,41 +46,7 @@
     color: #f5b031;
   }
 
-  .data {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    margin-bottom: 50px;
-  }
 
-  .row {
-    text-transform: lowercase;
-    font-size: 20px;
-    font-family: 'Verdana';
-    margin-right: 50px;
-    margin-left: 50px;
-  }
-
-  .header-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    color: #fff;
-    border-bottom: 1px solid #8d8c8c;
-    margin-top: 40px;
-  }
-
-  .left-group {
-    display: flex;
-  }
-
-  .right-group {
-    display: flex;
-  }
 
   h2 {
     font-size: 20px;
@@ -95,47 +60,6 @@
     margin-top: 100px;
   }
   
-  .header-container h3 {
-    margin: 2px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    font-size: 20px;
-    display: inline-block;
-    text-transform: uppercase;
-  }
-
-  .header-container h2 {
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-
-  .active-filter {
-    color: #f5b031;
-  }
-
-  .tabcontent {
-    display: none;
-    padding: 20px;
-    background-color: #f2f2f2;
-    color: #333;
-  }
-
-  .icon-text-container {
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .header-container h2.active,
-  .header-container h3.active {
-    color: #f5b031;
-  }
-
-  .highlight-number {
-    color: #f5b031;
-    font-weight: bold;
-  }
-
 
   .flex-container {
     display: flex;
@@ -218,25 +142,6 @@
     vertical-align: middle;
   }
 
-  table {
-    font-size: 0.9em;
-    font-family: monospace;
-    color: #fff;
-  }
-
-  table thead th:first-child {
-    text-align: left;
-  }
-
-  tr:nth-child(even) {
-    background-color: #242424;
-  }
-
-  table th,
-  table td:not(:first-child) {
-    text-align: right;
-    padding: 14px 8px;
-  }
 
   .server-icon {
     width: 35px;
@@ -249,17 +154,3 @@
     border-radius: 50%;
   }
 
-
-  table th {
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-
-  table tbody tr {
-    padding: 0 18px;
-    border-bottom: 1px solid #dddddd;
-  }
-
-  table tbody tr:last-of-type {
-    border-bottom: 2px solid #dddddd;
-  }

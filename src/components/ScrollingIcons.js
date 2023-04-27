@@ -1,4 +1,3 @@
-// ScrollingIcons.js
 import React, { useState, useEffect } from 'react';
 import './ScrollingIcons.css';
 

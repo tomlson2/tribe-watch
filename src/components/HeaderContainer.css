@@ -1,0 +1,60 @@
+  .header-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+    border-bottom: 1px solid #8d8c8c;
+  }
+
+  .left-group {
+    display: flex;
+  }
+
+  .right-group {
+    display: flex;
+  }
+
+  .header-container h3 {
+    margin: 2px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  .header-container h2 {
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .active-filter {
+    color: #f5b031;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  .icon-text-container {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .header-container h2.active,
+  .header-container h3.active {
+    color: #f5b031;
+  }
+
+  .highlight-number {
+    color: #f5b031;
+    font-weight: bold;
+  }

@@ -1,3 +1,4 @@
+
   .dashboard-title {
     font-size: 54px;
     font-weight: 500;
@@ -5,4 +6,24 @@
     margin-bottom: 0;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
+  }
+
+  .dashboard-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* This will ensure the container takes at least the full height of the viewport */
+  }
+
+  .dashboard-table {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid darkgray; /* Replace with your desired border color */
+    border-radius: 15px; /* Adjust the border radius value for desired roundness */
+    padding: 20px; /* Add padding to create space between the border and the content */
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './HeaderContainer.css';
 
 const HeaderContainer = ({ onHeaderFilterClick, onTimeFilterClick, activeHeaderFilter, activeTimeFilter }) => {
     return (

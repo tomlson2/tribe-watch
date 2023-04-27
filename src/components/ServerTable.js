@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
 import ServerRow from './ServerRow';
+import './ServerTable.css';
 
 const ServerTable = ({ timeFilter }) => {
   const [data, setData] = useState([]);
@@ -49,17 +50,17 @@ const ServerTable = ({ timeFilter }) => {
 
   useEffect(() => {
     updateData();
-  }, [timeFilter]); // Add timeFilter to the dependency array
+  }, [timeFilter]);
 
   return (
     <table className="data">
       <thead>
         <tr>
           <th onClick={() => onHeaderClick('server')}>server</th>
-          <th onClick={() => onHeaderClick('messages')}>messages</th>
           <th onClick={() => onHeaderClick('active_users')}>active users</th>
-          <th onClick={() => onHeaderClick('trad_vol')}>trade vol</th>
-          <th onClick={() => onHeaderClick('fp')}>floor price</th>
+          <th onClick={() => onHeaderClick('messages')}>messages</th>
+          {/* <th onClick={() => onHeaderClick('trad_vol')}>trade vol</th>
+          <th onClick={() => onHeaderClick('fp')}>floor price</th> */}
           <th onClick={() => onHeaderClick('age')}>age (days)</th>
         </tr>
       </thead>

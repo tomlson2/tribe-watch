@@ -50,7 +50,7 @@ const TotalMessageCount = () => {
     <div className='chart-container'>
       <MarketOverviewHeader />
       {messageData? (
-        <ResponsiveContainer width="100%" height={335}>
+        <ResponsiveContainer width="100%" height={235}>
           <ComposedChart data={messageData}>
             <XAxis dataKey="hour" tick={{ fontSize: 12 }} />
             <YAxis yAxisId="left" tick={{ fontSize: 12 }} orientation="left" />
@@ -79,11 +79,6 @@ const TotalMessageCount = () => {
               dot={false}
               strokeWidth={2}
               animationDuration={0}
-            />
-            <Bar 
-              yAxisId="right" 
-              dataKey="volume" 
-              fill="#34a853"
             />
           </ComposedChart>
         </ResponsiveContainer>

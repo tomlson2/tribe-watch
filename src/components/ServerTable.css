@@ -1,0 +1,48 @@
+  .data {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .row {
+    text-transform: lowercase;
+    font-size: 20px;
+    font-family: 'Verdana';
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  table th {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  table tbody tr {
+    padding: 0 18px;
+  }
+
+
+  table {
+    font-size: 0.9em;
+    font-family: monospace;
+    color: #fff;
+    border-collapse: collapse;
+  }
+
+  table thead th:first-child {
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #242424;
+  }
+
+  table th,
+  table td:not(:first-child) {
+    text-align: right;
+    padding: 14px 8px;
+  }
+
+  table tbody tr:hover {
+    background-color: #444444;
+  }

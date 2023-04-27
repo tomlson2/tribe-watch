@@ -7,7 +7,6 @@ const ServerRow = ({ item }) => {
   const serverId = item.guild_id;
   const messageCount = item.message_count;
   const activeUsers = item.unique_authors;
-  const reactionCount = item.total_reactions;
   const createdAt = item.created_at;
 
   return (
