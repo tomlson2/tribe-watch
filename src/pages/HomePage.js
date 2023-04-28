@@ -14,7 +14,7 @@ const HomePage = () => {
                     Discover Web3 ventures<span><br />through proof of community</span>
                 </h1>
                 <div className="home-content">
-                    <p>The platform for projects and investors that value builders and contributors.</p>
+                    <p>The platform for projects and investors that value builders & contributors.</p>
                 </div>
                 <TotalMessageCount className="chart-container" />
                 <Footer/>
