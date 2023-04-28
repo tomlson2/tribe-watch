@@ -151,7 +151,7 @@ const ServerDetails = () => {
                                             labelStyle={{ display: 'none' }}
                                         />
                                         <Legend wrapperStyle={{ fontSize: "14px" }} />
-                                        <Bar yAxisId="right" dataKey="message_count" name="Messages" fill="#f5b031" />
+                                        <Bar yAxisId="right" dataKey="message_count" name="Messages" fill="#f5b031" fillOpacity={0.4} />
                                         <Line
                                             yAxisId="left"
                                             type="monotone"
