@@ -1,0 +1,88 @@
+  .guild-title {
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    justify-content: center; /* Add this to center the title and logo container */
+    align-items: center; /* Add this to center the title and logo vertically */
+    width: 100%; /* Add this to make the container full width */
+    font-family: "Roboto Mono", monospace;
+    margin-bottom: 25px;
+  }
+
+  .details-container {
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .details-table {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15px; /* Adjust the border radius value for desired roundness */
+    padding: 20px; /* Add padding to create space between the border and the content */
+    padding-top: 60px;
+    transition: all 0.3s ease;
+  }
+
+  .details-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .data-container {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    margin: 0 10px; /* Add this line to create space between the containers */
+  }
+  
+  .data-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .details-table:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .small-text {
+    top: 0;
+    padding: 2px 6px;
+    color: #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0;   
+  }
+  
+  .big-text {
+    font-size: 26px;
+    color: #f5b031;
+    margin: 0;
+  }
+  

@@ -7,11 +7,6 @@
     font-family: 'Roboto', sans-serif;
   }
 
-  h1.guild {
-    font-size: 35px;
-    text-transform: uppercase;
-  }
-
   .link {
     text-decoration: none;
   }
@@ -103,25 +98,6 @@
 
   .server-link:hover {
     text-decoration: underline;
-  }
-
-  .guild-title {
-    margin-top: -50px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .details-logo {
-    width: 50px;
-    /* Adjust the width as needed */
-    height: 50px;
-    /* Adjust the height as needed */
-    margin-right: 18px;
-    /* Adjust the spacing between the icon and the text as needed */
-    vertical-align: middle;
-    border-radius: 9%;
   }
 
   .arrow-up::before {
