@@ -9,6 +9,7 @@
     width: 100%; /* Add this to make the container full width */
     font-family: "Roboto Mono", monospace;
     margin-bottom: 25px;
+    text-transform: uppercase;
   }
 
   .details-container {

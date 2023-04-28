@@ -84,7 +84,7 @@ const ServerDetails = () => {
 
     return (
         <div>
-            <SmallHeader centerContent={<h2></h2>} buttonText="dashboard" buttonHref="/dashboard" />
+            <SmallHeader centerContent={<h2>Server Breakdown</h2>} buttonText="dashboard" buttonHref="/dashboard" />
             <div>
                 {serverDetails && serverStats && topChatters ? (
                     <div className='details-container'>
@@ -127,7 +127,7 @@ const ServerDetails = () => {
                                         )}
                                     </div>
                                 </div>
-                                <p className="small-text" style={{ marginTop: "auto" }}>top chatters</p>
+                                <p className="small-text" style={{ marginTop: "auto" }}>daily top chatters</p>
                             </div>
                             <div className="data-container">
                                 <div className="content">
