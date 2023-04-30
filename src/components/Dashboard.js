@@ -19,7 +19,8 @@ const Dashboard = () => {
                         onTimeFilterClick={setTimeFilter}
                         activeTimeFilter={timeFilter}
                     />
-                    <ServerTable headerFilter={headerFilter} timeFilter={timeFilter} />
+                    <p>i'll be back soon!</p>
+                    {/* <ServerTable headerFilter={headerFilter} timeFilter={timeFilter} /> */}
                 </div>
             </div>
             <Footer />
