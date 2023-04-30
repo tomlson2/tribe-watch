@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Line, XAxis, YAxis, Tooltip, Legend, Bar, ResponsiveContainer, ComposedChart } from 'recharts';
 import moment from 'moment';
 import './ServerDetails.css';
+import SpeakDB from '../components/SpeakDB';
 
 const ServerDetails = () => {
     const { serverId } = useParams();

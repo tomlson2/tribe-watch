@@ -1,7 +1,6 @@
 import React from 'react';
 import './AccessMore.css';
 import SmallHeader from '../components/SmallHeader';
-import Footer from '../components/Footer';
 
 const AccessMore = () => {
     return (

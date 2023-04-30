@@ -3,6 +3,7 @@ body {
     padding: 0;
   }
   
+
   .home-container {
     display: flex;
     flex-direction: column;
@@ -23,6 +24,9 @@ body {
     padding: 40px;
 }
 
+pre {
+  display: block !important;
+}
   
   .home-content {
     padding: 20px;
@@ -67,4 +71,9 @@ body {
     line-height: 1.6;
     margin-top: 0; /* Add this line to remove the default top margin of the P element */
   }
+
+  .ascii-art {
+    font-family: monospace;
+    white-space: pre;
+}
  

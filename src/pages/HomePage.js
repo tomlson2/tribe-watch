@@ -17,7 +17,7 @@ const HomePage = () => {
                     <p>The platform for projects and investors that value builders & contributors.</p>
                 </div>
                 <TotalMessageCount className="chart-container" />
-                <Footer/>
+                <Footer />
             </div>
         </div>
     );

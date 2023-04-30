@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ResponsiveContainer, ComposedChart, Line, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
+import { ResponsiveContainer, ComposedChart, Line, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import './TotalMessageCount.css';
 import MarketOverviewHeader from './MarketOverviewHeader';
 import moment from 'moment';
